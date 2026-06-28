@@ -22,7 +22,7 @@ body {
 
     padding: 0 40px;
 
-    background: burlywood;
+    background:rgba(20, 20, 20, 0.45);
     color: white;
 
     z-index: 1000;
@@ -47,7 +47,7 @@ body {
 
     padding: 10px 20px;
 
-    border-radius: 8px;
+    border-radius: 20px;
 
     background: white;
 
@@ -62,7 +62,7 @@ body {
 
 .nav-buttons button:hover {
 
-    background: #ffc107;
+    background: blue;
 
     color: black;
 

@@ -65,12 +65,12 @@ const ProjectPage = () => {
               <div className="card-body p-5">
 
                 <h2 className="text-warning fw-bold">
-                  E-Challan Web Application
+                  E-Challan Web Application AI-Based Traffic Violation Detection System
                 </h2>
 
-                <h4 className="text-info mb-4">
+                {/* <h4 className="text-info mb-4">
                   AI-Based Traffic Violation Detection System
-                </h4>
+                </h4> */}
 
                 <hr />
 
