@@ -1,0 +1,247 @@
+import React, { useEffect, useState } from "react";
+import "./Home.css";
+
+import AboutPage from "./AboutPage";
+import SkillsPage from "./SkillsPage";
+import EducationPage from "./EducationPage";
+import ExperiencePage from "./ExperiencePage";
+import ProjectPage from "./ProjectPage";
+import ContactPage from "./ContactPage";
+
+function Home() {
+
+  const [activeSection, setActiveSection] = useState("home");
+
+  const scrollToSection = (id) => {
+    document.getElementById(id).scrollIntoView({
+      behavior: "smooth",
+    });
+  };
+
+  useEffect(() => {
+
+    const handleScroll = () => {
+
+      const sections = document.querySelectorAll("section");
+
+      sections.forEach((section) => {
+
+        const top = section.offsetTop - 120;
+        const height = section.offsetHeight;
+        const id = section.getAttribute("id");
+
+        if (
+          window.scrollY >= top &&
+          window.scrollY < top + height
+        ) {
+          setActiveSection(id);
+        }
+
+      });
+
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    handleScroll();
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+
+  }, []);
+
+  return (
+    <>
+
+      <header className="navbar1">
+
+        <div className="logo">
+          <h2>Ajit Kakhandaki</h2>
+        </div>
+
+        <div className="nav-buttons">
+
+          <button
+            className={activeSection === "home" ? "active" : ""}
+            onClick={() => scrollToSection("home")}
+          >
+            Home
+          </button>
+
+          <button
+            className={activeSection === "about" ? "active" : ""}
+            onClick={() => scrollToSection("about")}
+          >
+            About
+          </button>
+
+          <button
+            className={activeSection === "skills" ? "active" : ""}
+            onClick={() => scrollToSection("skills")}
+          >
+            Skills
+          </button>
+
+          <button
+            className={activeSection === "education" ? "active" : ""}
+            onClick={() => scrollToSection("education")}
+          >
+            Education
+          </button>
+
+          <button
+            className={activeSection === "experience" ? "active" : ""}
+            onClick={() => scrollToSection("experience")}
+          >
+            Experience
+          </button>
+
+          <button
+            className={activeSection === "projects" ? "active" : ""}
+            onClick={() => scrollToSection("projects")}
+          >
+            Projects
+          </button>
+
+          <button
+            className={activeSection === "contact" ? "active" : ""}
+            onClick={() => scrollToSection("contact")}
+          >
+            Contact
+          </button>
+
+        </div>
+
+      </header>
+
+      <section id="home" className="section page-bg">
+       <h1 className="display-2 fw-bold ">
+  Hi, I'm <span className="text-primary">Ajit Kakhandaki</span>
+</h1>
+      </section>
+
+      <section id="about" className="section page-bg">
+        <AboutPage />
+      </section>
+
+      <section id="skills" className="section page-bg">
+        <SkillsPage />
+      </section>
+
+      <section id="education" className="section page-bg">
+        <EducationPage />
+      </section>
+
+      <section id="experience" className="section page-bg">
+        <ExperiencePage />
+      </section>
+
+      <section id="projects" className="section page-bg">
+        <ProjectPage />
+      </section>
+
+      <section id="contact" className="section page-bg">
+        <ContactPage />
+      </section>
+
+    </>
+  );
+}
+
+export default Home;
+
+// import React from "react";
+// import "./Home.css";
+
+// import AboutPage from "./AboutPage";
+// import SkillsPage from "./SkillsPage";
+// import EducationPage from "./EducationPage";
+// import ExperiencePage from "./ExperiencePage";
+// import ProjectPage from "./ProjectPage";
+// import ContactPage from "./ContactPage";
+
+// function Home() {
+
+//   const scrollToSection = (id) => {
+//     document.getElementById(id).scrollIntoView({
+//       behavior: "smooth"
+//     });
+//   };
+
+//   return (
+//     <>
+
+//       <header className="navbar1">
+
+//         <div className="logo">
+//           <h2>Ajit Kakhandaki</h2>
+//         </div>
+
+//         <div className="nav-buttons">
+
+//           <button onClick={() => scrollToSection("home")}>
+//             Home
+//           </button>
+
+//           <button onClick={() => scrollToSection("about")}>
+//             About
+//           </button>
+
+//           <button onClick={() => scrollToSection("skills")}>
+//             Skills
+//           </button>
+
+//           <button onClick={() => scrollToSection("education")}>
+//             Education
+//           </button>
+
+//           <button onClick={() => scrollToSection("experience")}>
+//             Experience
+//           </button>
+
+//           <button onClick={() => scrollToSection("projects")}>
+//             Projects
+//           </button>
+
+//           <button onClick={() => scrollToSection("contact")}>
+//             Contact
+//           </button>
+
+//         </div>
+
+//       </header>
+
+//       <section id="home" className="section ">
+//         <h1>Home1</h1>
+//       </section>
+
+//       <section id="about" className="section">
+//         <AboutPage />
+//       </section>
+
+//       <section id="skills" className="section">
+//         <SkillsPage />
+//       </section>
+
+//       <section id="education" className="section">
+//         <EducationPage />
+//       </section>
+
+//       <section id="experience" className="section">
+//         <ExperiencePage />
+//       </section>
+
+//       <section id="projects" className="section">
+//         <ProjectPage />
+//       </section>
+
+//       <section id="contact" className="section">
+//         <ContactPage />
+//       </section>
+
+//     </>
+//   );
+// }
+
+// export default Home;
