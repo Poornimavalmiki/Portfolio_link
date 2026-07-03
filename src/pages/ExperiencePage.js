@@ -43,7 +43,7 @@ const ExperiencePage = () => {
 
                   <div>
                     <h2 className="text-warning fw-bold">
-                      Software Developer (Python Full Stack Developer)
+                     Android Developer | Mobile Application Engineer 
                     </h2>
 
                     <h4 className="text-info mt-3">
@@ -55,11 +55,41 @@ const ExperiencePage = () => {
                     </p>
                   </div>
 
-                  <div>
+ <div>
                     <span className="badge bg-primary fs-6 px-4 py-3">
-                      Oct 2023 - Present
+                      Feb 2023 – April 2026
                     </span>
                   </div>
+
+ <div>
+                    <h2 className="text-warning fw-bold">
+                     Android Developer(Internship)
+                    </h2>
+
+                    <h4 className="text-info mt-3">
+                      Trinity Technologies & Software Solutions Pvt. Ltd.
+                    </h4>
+
+                    <p className="text-light mb-1">
+                      📍 Hubballi, Karnataka
+                    </p>
+                  </div>
+
+
+ <div>
+                    <span className="badge bg-primary fs-6 px-4 py-3">
+                      August 2022 – Jan 2023 
+                    </span>
+                  </div>
+
+
+
+
+
+
+
+
+                 
 
                 </div>
 
@@ -72,54 +102,27 @@ const ExperiencePage = () => {
                 <ul className="mt-3 fs-5">
 
                   <li>
-                    Developed scalable web applications using Python, Django,
-                    Django REST Framework, React.js, and MySQL.
+                    Developed a real-time Android application for Bangalore Traffic Police to digitally manage and close traffic e-Challans by integrating REST APIs, SOAP services, GPS, and Bluetooth thermal printing, significantly improving field enforcement efficiency and reducing manual paperwork.
                   </li>
 
                   <li>
-                    Designed and developed REST APIs for AI analytics,
-                    traffic violation management, and reporting systems.
+                    Built an intelligent Android-based traffic enforcement solution that integrates radar hardware, AI-powered vehicle detection, OCR, and automatic e-Challan generation to streamline overspeed violation management with real-time backend synchronization.
                   </li>
 
                   <li>
-                    Built responsive React.js dashboards and integrated
-                    frontend applications with Django REST APIs.
+                   Developed a smart bicycle-sharing Android application enabling user registration, subscription management, NFC-based bicycle access, secure online payments, and real-time station tracking to provide a seamless urban mobility experience.
                   </li>
 
-                  <li>
-                    Developed SOAP web services using the Spyne framework
-                    for enterprise system integration.
-                  </li>
-
-                  <li>
-                    Integrated AI models using YOLOv8, OpenCV,
-                    PaddleOCR, and Custom OCR for real-time traffic analytics.
-                  </li>
-
-                  <li>
-                    Optimized backend performance and database queries
-                    for high-performance applications.
-                  </li>
-
-                  <li>
-                    Deployed Django applications on Ubuntu Linux
-                    using Apache2 and WSGI.
-                  </li>
-
-                  <li>
-                    Collaborated with cross-functional teams to deliver
-                    scalable AI-powered solutions.
-                  </li>
-
+               
                 </ul>
 
                 <hr className="my-4" />
 
-                <h4 className="text-warning">
+                {/* <h4 className="text-warning">
                   Technologies
-                </h4>
+                </h4> */}
 
-                <div className="mt-3">
+                {/* <div className="mt-3">
 
                   <span className="badge bg-secondary me-2 mb-2 p-2">Python</span>
 
@@ -149,7 +152,7 @@ const ExperiencePage = () => {
 
                   <span className="badge bg-secondary me-2 mb-2 p-2">YOLOv8</span>
 
-                </div>
+                </div> */}
 
               </div>
 

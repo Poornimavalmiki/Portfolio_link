@@ -2,67 +2,76 @@ import React from "react";
 
 const skills = [
   {
-    title: "Programming Languages",
+    title: "Languages",
     icon: "💻",
-    items: ["Python", "JavaScript", "HTML5", "CSS3"],
+    items: [ "Java", "Kotlin", "Dart", "XML", "JSON","C++" ],
   },
   {
-    title: "AI / ML & Computer Vision",
+    title: "Android",
     icon: "🤖",
     items: [
-      "YOLO (Ultralytics)",
-      "OpenCV",
-      "Custom OCR",
-      "PaddleOCR",
-      "Object Detection",
-      "Tracking",
-      "OCR",
+       "Android SDK", "Jetpack", "RecyclerView", "Navigation", "Room", "WorkManager", "DataStore"
     ],
   },
   {
-    title: "Web Technologies",
+    title: "Architecture",
     icon: "🌐",
     items: [
-      "HTML5",
-      "CSS3",
-      "JavaScript",
-      "React.js",
-      "Node.js",
-      "REST APIs",
+    "MVVM", "Clean Architecture", "Dependency Injection (Hilt, Dagger)"
     ],
   },
   {
-    title: "Edge Devices",
+    title: "Payment Integration",
     icon: "⚡",
     items: [
-      "Rockchip RK3588",
-      "Radxa 5C",
-      "NVIDIA Jetson",
+       "PayG Payment Gateway", "Online Payments", "Transaction Status Handling" 
     ],
   },
   {
-    title: "Database & Tools",
+    title: " Networking ",
     icon: "🛠️",
     items: [
-      "MySQL",
-      "MySQL Workbench",
-      "VS Code",
-      "Git",
-      "GitHub",
-      "Linux (Ubuntu)",
-      "Apache2",
+      "Retrofit", "OkHttp", "REST APIs", "SOAP APIs", "MQTT"
     ],
   },
   {
-    title: "Soft Skills",
+    title: "Firebase",
     icon: "🚀",
     items: [
-      "Problem Solving",
-      "Team Collaboration",
-      "Project Ownership",
-      "Adaptability",
+ "Authentication", "Firestore", "Realtime Database", "FCM", "Analytics "    ],
+  },
+
+ {
+    title: "Hardware Integration",
+    icon: "🚀",
+    items: [
+     "BLE", "Bluetooth Printers", "POS Devices", "Camera2", "CameraX", "Radar Sensors" 
     ],
   },
+
+   {
+    title: "Databases",
+    icon: "🚀",
+    items: [
+ "SQLite", "Room Database", "SharedPreferences " ],
+  },
+
+   {
+    title: "Testing",
+    icon: "🚀",
+    items: [
+"JUnit", "Mockito", "Espresso"   ],
+  },
+
+   {
+    title: "Tools  ",
+    icon: "🚀",
+    items: [
+"Android Studio", "VS Code", "Git", "GitHub", "GitLab"    ],
+  },
+
+
+
 ];
 
 const SkillsPage = () => {

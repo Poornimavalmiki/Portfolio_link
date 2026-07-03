@@ -120,7 +120,7 @@ function Home() {
 
       <section id="home" className="section page-bg">
        <h1 className="display-2 fw-bold ">
-  Hi, I'm <span className="text-primary">Ajit Kakhandaki</span>
+  Hi, I'm <span className="text-primary">Poornima Valmiki</span>
 </h1>
       </section>
 

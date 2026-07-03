@@ -3,25 +3,12 @@ import React from "react";
 const education = [
   {
     degree: "Bachelor of Engineering (B.E)",
-    college: "AGMR College of Engineering and Technology",
-    location: "Varur, Hubballi",
+    college: "Computer Science and Engineering, Government Engineering College ",
+    location: "Haveri",
     university: "Visvesvaraya Technological University (VTU), Belagavi",
     year: "2018 - 2022",
   },
-  {
-    degree: "Pre-University Course (PUC)",
-    college: "SB Arts & KCP Science PU College",
-    location: "Vijayapura",
-    university: "Karnataka Pre-University Board",
-    year: "2016 - 2018",
-  },
-  {
-    degree: "Secondary School Leaving Certificate (SSLC)",
-    college: "Government High School",
-    location: "Ittangihal, Vijayapura",
-    university: "Karnataka Secondary Education Board",
-    year: "2006 - 2016",
-  },
+ 
 ];
 
 const EducationPage = () => {

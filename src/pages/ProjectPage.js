@@ -1,28 +1,57 @@
 import React from "react";
 
 const technologies = [
-  "YOLOv8",
-  "OpenCV",
-  "PaddleOCR",
-  "Custom OCR",
-  "Django",
-  "React.js",
-  "MySQL",
-  "REST APIs",
-  "RTSP Streaming",
-  "Multiprocessing",
-  "Ubuntu Linux",
+ "Java", "Kotlin", "Android SDK", "XML", "REST APIs", "SOAP Web Services", ".NET Backend Services", 
+"Retrofit", "OkHttp", "JSON Parsing", "Bluetooth Thermal Printer SDK", "C++", "GPS Location Services", "SQLite/Room Database", "MVVM Architecture", "Firebase Cloud Messaging (FCM)", "Git", "Android Studio"
 ];
+const savariTechnologies=[
+  "Java",
+  "Kotlin",
+  "Android SDK",
+  "XML",
+  "REST APIs",
+  "C++",
+  "SOAP Web Services",
+  "Retrofit",
+  "OkHttp",
+  "JSON Parsing",
+  "SQLite/Room Database",
+  "SharedPreferences",
+  "GPS Location Services",
+  "Google Maps SDK",
+  "NFC/Smart Card Integration",
+  "Bluetooth Communication",
+  "MVVM Architecture",
+  "Firebase Cloud Messaging (FCM)",
+  "Material Design Components",
+  "Git",
+  "Android Studio",
+  ".NET Backend Services",
+  "Google Play Store Deployment"
+]
 
 const edgeTechnologies = [
-  "YOLO",
-  "ONNX",
-  "RKNN Toolkit",
-  "OpenCV",
+  "Java",
+  "Kotlin",
+  "Android SDK",
+  "C++",
+  "Camera2 API",
+  "NanoDet Object Detection",
+  "OCR (ML Kit/Tesseract)",
+  "Bluetooth/BLE",
+  "Bluetooth Thermal Printer SDK",
+  "REST APIs",
+  "SOAP Web Services",
+  ".NET Backend",
+  "Retrofit",
+  "MVVM Architecture",
+  "Firebase",
+  "Room Database",
+  "GPS Location Services",
+  "EventBus",
   "MQTT",
-  "Edge AI",
-  "Radxa 5C",
-  "Linux",
+  "Git",
+  "Android Studio"
 ];
 
 const ProjectPage = () => {
@@ -65,7 +94,8 @@ const ProjectPage = () => {
               <div className="card-body p-5">
 
                 <h2 className="text-warning fw-bold">
-                  E-Challan Web Application AI-Based Traffic Violation Detection System
+                  Bangalore Traffic e-Challan Closure System 
+
                 </h2>
 
                 {/* <h4 className="text-info mb-4">
@@ -76,60 +106,48 @@ const ProjectPage = () => {
 
                 <ul className="fs-5 lh-lg">
 
-                  <li>
-                    Developed a real-time AI-powered traffic monitoring
-                    system for vehicle detection, traffic violation
-                    analysis, and Automatic Number Plate Recognition
-                    (ANPR) from CCTV streams.
-                  </li>
+                  
+                    Developed an Android application for Bangalore Traffic Police to digitally manage and close traffic violation e
+Challans in real time. The application enables officers to search vehicle numbers, view owner and violation details 
+from REST APIs, SOAP web services, and .NET backend services, and close pending challans directly within the app. 
+Upon successful closure, the system automatically generates and prints challan receipts with vehicle information, 
+violation details, and GPS location using a Bluetooth thermal printer SDK, significantly reducing manual paperwork 
+and improving operational efficiency. 
+                  
 
-                  <li>
-                    Successfully deployed the solution across multiple
-                    districts, enabling efficient traffic violation
-                    monitoring for law enforcement agencies.
-                  </li>
+            <p className="text-warning fw-bold">
+                  Roles & Responsibilities
+ </p>
+              
+<li>Developed an Android application for Bangalore Traffic Police to search, manage, and close traffic 
+violation e-Challans. 
+</li> 
+<li>Implemented vehicle number search functionality with autocomplete and list display of matching 
+vehicle registration numbers.  </li>
+<li>
+Integrated REST APIs, SOAP web services, and .NET backend services to fetch vehicle owner 
+details, violation history, and challan information. </li> 
+<li>
+ Designed a detailed vehicle information screen to display owner details, pending notices, 
+violation sections, fine amount, and status.  </li>
+<li>
+Implemented a Close Notice button to digitally close selected challans from the mobile 
+application.</li>  
+<li>
+ 
+ Developed logic to update challan status and synchronize closure information with the backend 
+server in real time.   </li>
+<li>
 
-                  <li>
-                    Automated detection of traffic violations including
-                    rider not wearing a helmet, pillion rider without a
-                    helmet, and mobile phone usage while driving with
-                    evidence capture.
-                  </li>
-
-                  <li>
-                    Implemented an end-to-end e-challan processing
-                    system supporting violation verification,
-                    manual challan generation, automatic offence
-                    code mapping, SMS notifications,
-                    payment tracking, and challan closure.
-                  </li>
-
-                  <li>
-                    Developed an automated e-challan workflow
-                    with SMS notifications sent to vehicle owners
-                    containing violation details, location,
-                    date, and vehicle information.
-                  </li>
-
-                  <li>
-                    Developed real-time dashboards for
-                    violation monitoring, reporting,
-                    and analytics visualization.
-                  </li>
-
-                  <li>
-                    Integrated Google Maps using
-                    <strong> "View on Map" </strong>
-                    to display the exact violation location.
-                  </li>
-
-                  <li>
-                    Enabled centralized storage and
-                    management of vehicle,
-                    violation, and challan data
-                    for reporting and analysis.
-                  </li>
-
+Integrated Bluetooth thermal printer SDK to print receipts instantly at the enforcement location.  
+</li>
+<li>
+Implemented Bluetooth device pairing, connection management, and ESC/POS printing 
+commands. </li>
+<li> 
+Collaborated with backend developers, testers, and traffic department stakeholders to deliver 
+the solution successfully.  
+</li>
                 </ul>
 
                 <hr className="my-4" />
@@ -163,7 +181,7 @@ const ProjectPage = () => {
  <div className="card-body p-5">
 
                 <h2 className="text-warning fw-bold">
-                  ANPR & Object Detection on Radxa 5C Edge Device 
+                 Radar Speed Detection System  
 
                 </h2>
 
@@ -175,42 +193,30 @@ const ProjectPage = () => {
 
                 <ul className="fs-5 lh-lg">
 
-                  <li>
-                   Developed an edge-based Automatic Number Plate Recognition (ANPR) and vehicle detection system on 
-the Radxa 5C platform for real-time traffic monitoring. 
-                  </li>
+                  Developed an Android-based traffic enforcement application integrated with radar hardware to detect 
+overspeed vehicles in real time. Automatically captured vehicle images, applied NanoDet object 
+detection and OCR to extract vehicle numbers, retrieved owner details from the server, and generated e
+Challans with instant Bluetooth receipt printing. 
 
-                  <li>
-                   Converted YOLO object detection models from ONNX to RKNN format and optimized them for Rockchip 
-NPU acceleration, enabling efficient edge inference. 
-                  </li>
+<p className="text-warning">
+Roles & Responsibilities: 
+</p>
 
-                  <li>
-                   Processed real-time camera streams using OpenCV and RKNN inference to detect vehicles and recognize 
-number plates without cloud dependency. 
-                  </li>
+<li>Developed an Android application to integrate with radar hardware for real-time vehicle speed 
+detection.  </li>
 
-                  <li>
-                  Achieved low-latency, real-time inference performance by leveraging the Radxa 5C NPU, making the 
-solution suitable for traffic surveillance and edge AI deployments. 
-                  </li>
+<li>Implemented automatic image capture when vehicle speed exceeded the configured limit. </li> 
+<li>Integrated NanoDet object detection to identify vehicle type and detect number plate regions.</li>  
+<li>Applied OCR to extract vehicle registration numbers from captured images.  </li>
+<li>Sent recognized vehicle numbers to the backend server to fetch owner and vehicle details. </li> 
+<li>Implemented automatic e-Challan generation based on overspeed violations.  </li>
+<li>Integrated Bluetooth thermal printer SDK for instant challan receipt printing.  </li>
+<li>Used REST APIs, SOAP web services, and .NET backend services for real-time data 
+synchronization.  </li>
 
-                  <li>
-                   Published vehicle detections, license plate information, and event logs through MQTT for remote 
-monitoring and seamless system integration. 
-                  </li>
-
-                  <li>
-                   Enabled efficient edge processing and data transmission, reducing network bandwidth usage and improving 
-response times. 
-                  </li>
-
-                  <li>
-                   Validated and deployed optimized RKNN models on Linux-based edge devices for reliable field operation. 
-                  </li>
-
-                
-
+<li>Optimized the application to reduce manual intervention and improve traffic enforcement 
+efficiency.  
+</li>
                 </ul>
 
                 <hr className="my-4" />
@@ -247,8 +253,7 @@ response times.
  <div className="card-body p-5">
 
                 <h2 className="text-warning fw-bold">
-                  AI-Based Face Recognition System using InsightFace 
-
+                 Savari Bicycle
 
                 </h2>
 
@@ -260,120 +265,56 @@ response times.
 
                 <ul className="fs-5 lh-lg">
 
-                  <li>
-                   Designed and developed a full-stack AI-powered face recognition system using Django (Python) and 
-React.js for real-time user identification and authentication.  
-                  </li>
-
-                  <li>
-                  Implemented face recognition using InsightFace to generate facial embeddings and perform similarity 
-matching for accurate user identification. 
-                  </li>
-
-                  <li>
-                   Developed user registration and enrollment workflows to capture, process, and securely store facial data 
-for future recognition. 
-                  </li>
-
-                  <li>
-                  Built RESTful APIs for image uploads, embedding generation, face matching, and recognition requests.  
-                  </li>
-
-                  <li>
-                   Optimized recognition accuracy and response time using cosine similarity-based matching techniques.
-                  </li>
-
-                  <li>
-                   Designed and managed MySQL databases to store user profiles, facial embeddings, and recognition logs.
-                  </li>
-
-                  <li>
-                   Implemented input validation and error handling to ensure reliable performance across varying image 
-qualities and lighting conditions. 
-                  </li>
 
 
-                  <li>
-                  Deployed and tested the application in a Linux (Ubuntu) environment. 
-                  </li>
+Developed an Android application for the Savari public bicycle sharing system, enabling users to register, 
+purchase recharge plans, and rent bicycles from docking stations across the city. Users could unlock and 
+return bicycles using a smart card at any station. Integrated PayG payment gateway for secure online 
+recharge and subscription payments. Connected backend services to manage station availability, ride 
+history, billing, and subscription details in real time. Successfully deployed and maintained the 
+application on the Google Play Store. 
+<p className="text-warning">
+Roles & Responsibilities: 
+</p>
 
-                
+<li>Developed an Android application for user registration, monthly recharge plans, and bicycle 
+rental management.  </li>
 
+<li>Integrated REST APIs, SOAP web services, and PayG payment gateway for recharge and 
+subscription payments.  </li>
+<li>Implemented smart card/NFC-based bicycle unlocking and secure return at docking stations.</li>  
+<li>Added GPS and Google Maps integration to display nearby cycle stations and bicycle 
+availability.  </li>
+
+<li> Managed app signing, release builds, and deployment of production updates to the Google Play 
+Store.</li>
                 </ul>
 
                 <hr className="my-4" />
+
+
+                 <h3 className="text-warning mb-3">
+                  Technologies Used
+                </h3>
+
+                <div>
+
+                  {savariTechnologies.map((tech, index) => (
+                    <span
+                      key={index}
+                      className="badge bg-primary me-2 mb-2 p-3 fs-6"
+                    >
+                      {tech}
+                    </span>
+                  ))}
+
+                </div>
 
                             
 
               </div>
 
 {/*  */}
-
-
-
- <div className="card-body p-5">
-
-                <h2 className="text-warning fw-bold">
-                  Intelligent Traffic Violation Detection and e-Challan Management System (Server socket)
-
-
-                </h2>
-
-                {/* <h4 className="text-info mb-4">
-                  AI-Based Traffic Violation Detection System
-                </h4> */}
-
-                <hr />
-
-
-
-                
-
-                <ul className="fs-5 lh-lg">
-
-                  <li>
-                  Developed an AI-powered Intelligent Traffic Violation Detection and e-Challan Management System using a PyTorch-based object detection model to automate traffic monitoring and violation detection. 
-                  </li>
-
-                  <li>
-                  Implemented real-time vehicle detection from CCTV camera feeds and accurately identified multiple vehicles within a single video frame.
-                  </li>
-
-                  <li>
-                 Classified detected vehicles into different categories such as Two Wheeler, Three Wheeler, Four Wheeler, Bus, Truck, and other vehicle types. 
-                  </li>
-
-                  <li>
-                  Integrated Automatic Number Plate Recognition (ANPR) using OCR techniques to detect and extract vehicle registration numbers from captured images.                  </li>
-
-                  <li>
-                  Implemented AI-based traffic violation detection to identify offences such as Helmet Violation, Seat Belt Violation, Mobile Phone Usage While Driving, Triple Riding, Wrong Parking, and other predefined traffic violations.                  </li>
-
-                  <li>
-Established real-time communication between the AI detection module and the backend using Python Socket Programming to transmit violation data securely.                  </li>
-
-                  <li>
-Developed the backend using Django REST Framework to receive, validate, and process incoming violation data from the AI detection system.                  </li>
-
-
-                  <li>
-                  Stored all processed violation records in a MySQL database, maintaining complete information required for traffic enforcement and auditing. 
-                  </li>
-<li>
-    Built a React.js-based e-Challan Management Dashboard for monitoring violations, managing records, reviewing evidence, and generating digital e-Challans.
-</li>
-                <li>
-                    Designed the complete system architecture to automate the workflow from AI-based detection to backend processing, database storage, and e-Challan generation, minimizing manual intervention and improving traffic enforcement efficiency.
-                </li>
-
-                </ul>
-
-                <hr className="my-4" />
-
-              
-                
-
-              </div>
 
 
 

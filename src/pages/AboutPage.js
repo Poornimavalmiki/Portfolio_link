@@ -32,88 +32,71 @@ function AboutPage() {
               <h1 className="display-4 fw-bold mt-3">
                 Hi, I'm
                 <span className="text-warning">
-                  {" "}Ajit Kakhandaki
+                  {" "}Poornima Valmiki
                 </span>
               </h1>
 
               <h3 className="text-primary mt-3">
-                Python Full Stack Developer
+                Android Developer
               </h3>
 
               <hr className="text-secondary my-4" />
 
               <p className="fs-5 lh-lg">
+<li>
+               Results-driven Android and Flutter Developer with 3+ years of experience in designing and 
+developing scalable, high-performance mobile applications.  </li>
+<li>
+Strong expertise in Java, Kotlin, Dart, Flutter, Android SDK,C++, and Jetpack 
+components,AndroidFamework,Aosp,Data Structure,Algorithms Experience with Adb and logcat .
+</li>
 
-                Passionate Software Developer with
-                <strong> 2.9 years </strong>
-                of professional experience in designing,
-                developing and deploying scalable web
-                applications using
 
-                <strong>
-                  Python, Django, Django REST Framework,
-                  React.js and MySQL
-                </strong>.
 
-              </p>
 
-              <p className="fs-5 lh-lg">
 
-                Experienced in developing
-                <strong>
-                  AI-powered applications
-                </strong>
-                including
 
-                <span className="text-warning">
-                  Computer Vision,
-                  Automatic Number Plate Recognition (ANPR),
-                  OCR,
-                  Face Recognition,
-                  Traffic Analytics,
-                  Object Detection
-                </span>.
+<li>
 
-              </p>
+Proficient in MVVM, Clean Architecture and modular application design, Collaborate with hardware.  </li>
+<li>
+Hands-on experience with REST API integration using Retrofit and OkHttp.  
+</li>
+<li>
+Experienced in Firebase services including Authentication, Firestore, Realtime Database, and Cloud 
+Messaging (FCM),AOSP.  </li>
+<li>
+Skilled in Bluetooth and BLE communication, including integration with thermal printers and external 
+devices.  </li>
+<li>
+Proficient in MQTT publish and subscribe messaging for real-time communication. 
+</li> 
 
-              <p className="fs-5 lh-lg">
+<li>
+Strong experience with Camera2 API and CameraX for image capture and processing. 
+</li> 
+<li>
 
-                Skilled in developing REST APIs,
-                integrating AI models,
-                optimizing backend performance,
-                deploying Django applications using
+Expertise in hardware integration with radar Device, POS machines, barcode scanners, and thermal 
+printers.  </li>
 
-                <strong>
-                  Apache2, WSGI, Ubuntu Linux,
-                  Python Virtual Environment
-                </strong>
+<li>
+Proven track record of delivering production-ready applications for traffic enforcement, automation, 
+and enterprise solutions.  </li>
+<li>
+Experienced in performance optimization, debugging, and deploying apps to the Google Play Store 
+and Apple App Store.  
+</li>
 
-                and building responsive React.js dashboards.
 
-              </p>
+<li>
+Effective team player with experience working in Agile development environments.
 
-              <p className="fs-5 lh-lg">
-
-                I enjoy solving real-world problems
-                through Artificial Intelligence,
-                Computer Vision and Full Stack Development
-                while continuously learning modern technologies
-                and following software engineering best practices.
+</li>
 
               </p>
 
-              {/* <div className="mt-4">
-
-                <button className="btn btn-warning btn-lg me-3">
-                  Download Resume
-                </button>
-
-                <button className="btn btn-outline-light btn-lg">
-                  Contact Me
-                </button>
-
-              </div> */}
-
+             
             </div>
 
           </div>
