@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Poornimavalmiki.github.io/Portfolio_link/static/css/main.6032b933.css",
-    "main.js": "/Poornimavalmiki.github.io/Portfolio_link/static/js/main.62f52bfd.js",
-    "static/js/453.a7d99afe.chunk.js": "/Poornimavalmiki.github.io/Portfolio_link/static/js/453.a7d99afe.chunk.js",
-    "index.html": "/Poornimavalmiki.github.io/Portfolio_link/index.html",
-    "main.6032b933.css.map": "/Poornimavalmiki.github.io/Portfolio_link/static/css/main.6032b933.css.map",
-    "main.62f52bfd.js.map": "/Poornimavalmiki.github.io/Portfolio_link/static/js/main.62f52bfd.js.map",
-    "453.a7d99afe.chunk.js.map": "/Poornimavalmiki.github.io/Portfolio_link/static/js/453.a7d99afe.chunk.js.map"
+    "main.css": "/Portfolio_link/static/css/main.6032b933.css",
+    "main.js": "/Portfolio_link/static/js/main.ac0d7a21.js",
+    "static/js/453.a7d99afe.chunk.js": "/Portfolio_link/static/js/453.a7d99afe.chunk.js",
+    "index.html": "/Portfolio_link/index.html",
+    "main.6032b933.css.map": "/Portfolio_link/static/css/main.6032b933.css.map",
+    "main.ac0d7a21.js.map": "/Portfolio_link/static/js/main.ac0d7a21.js.map",
+    "453.a7d99afe.chunk.js.map": "/Portfolio_link/static/js/453.a7d99afe.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6032b933.css",
-    "static/js/main.62f52bfd.js"
+    "static/js/main.ac0d7a21.js"
   ]
 }
