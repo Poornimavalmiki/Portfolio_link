@@ -76,7 +76,7 @@ const ContactPage = () => {
                 <h4 className="text-warning">LinkedIn</h4>
 
                 <a
-                    href="https://www.linkedin.com/in/poornima-valmiki-1782ab258/ "
+                    href="https://www.linkedin.com/in/poornima-valmiki-1782ab258/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-info text-decoration-none"
