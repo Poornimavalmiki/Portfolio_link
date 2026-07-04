@@ -81,7 +81,7 @@ const ContactPage = () => {
                     rel="noopener noreferrer"
                     className="text-info text-decoration-none"
                     >
-                    linkedin.com/in/ajit-kakhandaki-73946a250
+                    linkedin.com/in/poornima-valmiki-1782ab258
                 </a>
 
               </div>
